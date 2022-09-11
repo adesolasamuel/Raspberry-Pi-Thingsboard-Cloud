@@ -1,3 +1,5 @@
+#Original Code by Thingsboard Team
+#Modified by Adesola Samuel
 import os
 import time
 import sys
@@ -7,7 +9,7 @@ import adafruit_dht
 import json
 
 THINGSBOARD_HOST = 'thingsboard.cloud'
-ACCESS_TOKEN = 'ai8WuRJ4ajTYkVHCatu9'
+ACCESS_TOKEN = 'PASTE_ACCESS_TOKEN_HERE'
 
 # Data capture and upload interval in seconds. Less interval will eventually hang the DHT22.
 INTERVAL=2
